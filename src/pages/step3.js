@@ -1,5 +1,5 @@
-import React from 'react';
-import './step3.css';
+import React from "react";
+import "./step3.css";
 
 const Step3 = ({ toDoItems, setToDoItems }) => {
   // Function to move a to-do item to the next status
@@ -28,19 +28,22 @@ const Step3 = ({ toDoItems, setToDoItems }) => {
             <div className="done-list">
               <h2>Done Items</h2>
               <ul>
-                {toDoItems.map((item, index) => (
-                  item.status === 'done' && (
-                    <li key={index}>
-                      {item.text} -
-                      <button onClick={() => moveToDoItem(index, 'todo')}>
-                        Move to To-Do
-                      </button>
-                      <button onClick={() => moveToDoItem(index, 'in-progress')}>
-                        Move to In Progress
-                      </button>
-                    </li>
-                  )
-                ))}
+                {toDoItems.map(
+                  (item, index) =>
+                    item.status === "done" && (
+                      <li key={index}>
+                        {item.text} -
+                        <button onClick={() => moveToDoItem(index, "todo")}>
+                          Move to To-Do
+                        </button>
+                        <button
+                          onClick={() => moveToDoItem(index, "in-progress")}
+                        >
+                          Move to In Progress
+                        </button>
+                      </li>
+                    )
+                )}
               </ul>
             </div>
           </div>

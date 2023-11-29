@@ -1,9 +1,14 @@
-import React, { useEffect } from 'react';
-import { Routes, Route, useNavigationType, useLocation } from 'react-router-dom';
-import step1 from './pages/step1';
-import step3 from './pages/step3';
-import step2 from './pages/step2';
-import step11 from './pages/step11';
+import React, { useEffect } from "react";
+import {
+  Routes,
+  Route,
+  useNavigationType,
+  useLocation,
+} from "react-router-dom";
+import step1 from "./pages/step1";
+import step3 from "./pages/step3";
+import step2 from "./pages/step2";
+import step11 from "./pages/step11";
 
 function App() {
   const action = useNavigationType();
@@ -11,31 +16,31 @@ function App() {
   const pathname = location.pathname;
 
   useEffect(() => {
-    if (action !== 'POP') {
+    if (action !== "POP") {
       window.scrollTo(0, 0);
     }
   }, [action, pathname]);
 
   useEffect(() => {
-    let title = '';
-    let metaDescription = '';
+    let title = "";
+    let metaDescription = "";
 
     switch (pathname) {
-      case '/':
-        title = '';
-        metaDescription = '';
+      case "/":
+        title = "";
+        metaDescription = "";
         break;
-      case '/done':
-        title = '';
-        metaDescription = '';
+      case "/done":
+        title = "";
+        metaDescription = "";
         break;
-      case '/in-progress':
-        title = '';
-        metaDescription = '';
+      case "/in-progress":
+        title = "";
+        metaDescription = "";
         break;
-      case '/step-11':
-        title = '';
-        metaDescription = '';
+      case "/step-11":
+        title = "";
+        metaDescription = "";
         break;
       default:
         break;
