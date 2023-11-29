@@ -5,10 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import step1 from "./pages/step1";
-import step3 from "./pages/step3";
-import step2 from "./pages/step2";
-import step11 from "./pages/step11";
+import Step1 from "./pages/step1";
+import Step3 from "./pages/step3";
+import Step2 from "./pages/step2";
+import Step11 from "./pages/step11";
 
 function App() {
   const action = useNavigationType();
@@ -62,10 +62,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<step1 />} />
-      <Route path="/done" element={<step3 />} />
-      <Route path="/in-progress" element={<step2 />} />
-      <Route path="/step-11" element={<step11 />} />
+      <Route path="/" element={<Step1 />} />
+      <Route path="/done" element={<Step3 />} />
+      <Route path="/in-progress" element={<Step2 />} />
+      <Route path="/step-11" element={<Step11 />} />
     </Routes>
   );
 }
