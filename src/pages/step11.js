@@ -65,7 +65,7 @@ const Step11 = () => {
               <div className="group-child16" />
               <div className="reserve-head9">
                 <div className="reserve-head-child7" />
-                <div className="in-progress3">In progress</div>
+                <div className="in-progress3">In progressss</div>
               </div>
             </div>
           </div>
