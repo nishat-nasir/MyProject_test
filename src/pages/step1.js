@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './step1.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./step1.css";
 const Step1 = () => {
   // Step 1: Create state using useState
   const [toDoItems, setToDoItems] = useState([]);
 
   // Step 2: Function to add a new to-do item
   const addTodo = () => {
-    const newTodo = { text: 'New To-Do', status: 'todo' };
+    const newTodo = { text: "New To-Do", status: "todo" };
     setToDoItems([...toDoItems, newTodo]);
   };
 

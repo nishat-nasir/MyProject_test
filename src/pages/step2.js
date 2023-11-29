@@ -1,5 +1,5 @@
-import React from 'react';
-import './step2.css';
+import React from "react";
+import "./step2.css";
 
 const Step2 = ({ toDoItems, setToDoItems }) => {
   // Function to move a to-do item to the next status
@@ -13,9 +13,7 @@ const Step2 = ({ toDoItems, setToDoItems }) => {
     <div className="step-2">
       <div className="group-parent1">
         <div className="section-3-container">
-          <div className="section-32">
-            {/* ... Existing JSX ... */}
-          </div>
+          <div className="section-32">{/* ... Existing JSX ... */}</div>
           <div className="section-42">
             <div className="rectangle-parent13">
               <div className="group-child9" />
@@ -30,19 +28,20 @@ const Step2 = ({ toDoItems, setToDoItems }) => {
             <div className="in-progress-list">
               <h2>In Progress Items</h2>
               <ul>
-                {toDoItems.map((item, index) => (
-                  item.status === 'in-progress' && (
-                    <li key={index}>
-                      {item.text} - 
-                      <button onClick={() => moveToDoItem(index, 'todo')}>
-                        Move to To-Do
-                      </button>
-                      <button onClick={() => moveToDoItem(index, 'done')}>
-                        Move to Done
-                      </button>
-                    </li>
-                  )
-                ))}
+                {toDoItems.map(
+                  (item, index) =>
+                    item.status === "in-progress" && (
+                      <li key={index}>
+                        {item.text} -
+                        <button onClick={() => moveToDoItem(index, "todo")}>
+                          Move to To-Do
+                        </button>
+                        <button onClick={() => moveToDoItem(index, "done")}>
+                          Move to Done
+                        </button>
+                      </li>
+                    )
+                )}
               </ul>
             </div>
           </div>
@@ -60,19 +59,22 @@ const Step2 = ({ toDoItems, setToDoItems }) => {
             <div className="done-list">
               <h2>Done Items</h2>
               <ul>
-                {toDoItems.map((item, index) => (
-                  item.status === 'done' && (
-                    <li key={index}>
-                      {item.text} - 
-                      <button onClick={() => moveToDoItem(index, 'todo')}>
-                        Move to To-Do
-                      </button>
-                      <button onClick={() => moveToDoItem(index, 'in-progress')}>
-                        Move to In Progress
-                      </button>
-                    </li>
-                  )
-                ))}
+                {toDoItems.map(
+                  (item, index) =>
+                    item.status === "done" && (
+                      <li key={index}>
+                        {item.text} -
+                        <button onClick={() => moveToDoItem(index, "todo")}>
+                          Move to To-Do
+                        </button>
+                        <button
+                          onClick={() => moveToDoItem(index, "in-progress")}
+                        >
+                          Move to In Progress
+                        </button>
+                      </li>
+                    )
+                )}
               </ul>
             </div>
           </div>
