@@ -1,0 +1,337 @@
+.group-child16,
+.reserve-head-child7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+}
+.group-child16 {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.1);
+}
+.reserve-head-child7 {
+  background-color: var(--color-lightgray);
+}
+.to-do3 {
+  position: absolute;
+  width: 37.12%;
+  top: calc(50% - 14px);
+  left: 5.67%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangle-parent16,
+.reserve-head9 {
+  position: absolute;
+  height: 9.41%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.59%;
+  left: 0;
+}
+.rectangle-parent16 {
+  height: 100%;
+  bottom: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+}
+.ashik2,
+.div8 {
+  position: absolute;
+  left: 15.8%;
+  letter-spacing: -0.02em;
+}
+.div8 {
+  top: 13.75%;
+  font-weight: 500;
+}
+.ashik2 {
+  top: 35%;
+  font-size: var(--font-size-base);
+}
+.group-child17 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke);
+}
+.div9 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 29.73%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.rectangle-parent17 {
+  position: absolute;
+  height: 87.5%;
+  width: 10.63%;
+  top: 6.25%;
+  right: 87.93%;
+  bottom: 6.25%;
+  left: 1.44%;
+  font-size: var(--font-size-xl);
+}
+.card4 {
+  position: absolute;
+  height: 9.41%;
+  width: 97.21%;
+  top: 20.94%;
+  right: 1.4%;
+  bottom: 69.65%;
+  left: 1.4%;
+  font-family: var(--font-karla);
+}
+.card-child3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.17);
+}
+.div10 {
+  top: 10%;
+  left: 14.37%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.card5,
+.div10,
+.rafi2 {
+  position: absolute;
+}
+.rafi2 {
+  top: 32.5%;
+  left: 15.8%;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.card5 {
+  height: 9.41%;
+  width: 97.21%;
+  top: 10.35%;
+  right: 1.4%;
+  bottom: 80.24%;
+  left: 1.4%;
+  font-family: var(--font-karla);
+}
+.group-child19 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-100);
+  border: 1px dashed var(--color-thistle);
+  box-sizing: border-box;
+  width: 348px;
+  height: 284px;
+}
+.form-child7,
+.group-child19,
+.name3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-child7 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 328px;
+  height: 42px;
+}
+.enter-name3 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 10px;
+  display: inline-block;
+  width: 80px;
+  height: 15px;
+}
+.form9,
+.price9 {
+  position: absolute;
+  width: 328px;
+}
+.form9 {
+  top: 26px;
+  left: 0;
+  height: 42px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.price9 {
+  top: 10px;
+  left: 10px;
+  height: 68px;
+}
+.enter-number3 {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 16px;
+}
+.ddmmyyyy3,
+.enter-number3,
+.price10 {
+  position: absolute;
+  left: 10px;
+}
+.price10 {
+  top: 84px;
+  width: 328px;
+  height: 68px;
+}
+.ddmmyyyy3 {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 17px;
+}
+.group-child20,
+.price11 {
+  position: absolute;
+  width: 328px;
+}
+.price11 {
+  top: 158px;
+  left: 10px;
+  height: 68px;
+}
+.group-child20 {
+  top: calc(50% - 21px);
+  right: 0;
+  border-radius: 7.46px;
+  background-color: var(--color-darkslateblue);
+  height: 42px;
+}
+.create3 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 25px);
+  display: inline-block;
+  width: 50px;
+}
+.rectangle-parent20 {
+  position: absolute;
+  top: calc(50% + 90px);
+  right: 10px;
+  width: 328px;
+  height: 42px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.rectangle-parent19,
+.section-33 {
+  position: absolute;
+  top: 268px;
+  left: 5px;
+  width: 348px;
+  height: 284px;
+  font-size: var(--font-size-sm);
+}
+.section-33 {
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 67.57%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+}
+.in-progress3 {
+  position: absolute;
+  width: 37.12%;
+  top: 32.5%;
+  left: 5.67%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangle-parent21,
+.section-43 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.section-43 {
+  width: 32.43%;
+  right: 33.79%;
+  left: 33.79%;
+}
+.done3 {
+  position: absolute;
+  width: 37.12%;
+  top: 32.5%;
+  left: 5.59%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.section-3-parent1,
+.section-53 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 67.57%;
+}
+.section-3-parent1 {
+  height: 92.59%;
+  width: 100%;
+  top: 7.41%;
+  left: 0;
+}
+.task-board3 {
+  position: absolute;
+  top: 0;
+  left: 492px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.group-parent2 {
+  position: absolute;
+  height: 89.65%;
+  width: 76.67%;
+  top: 5.18%;
+  right: 11.67%;
+  bottom: 5.18%;
+  left: 11.67%;
+}
+.step-11 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+  font-family: var(--font-ubuntu);
+}
+.done3 {
+  color: rgb(22, 124, 119); /* Change the color to your desired green */
+}

@@ -1,0 +1,360 @@
+.group-child2,
+.reserve-head-child1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+}
+.group-child2 {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.1);
+}
+.reserve-head-child1 {
+  background-color: var(--color-lightgray);
+}
+.to-do-wrapper,
+.to-do1 {
+  position: absolute;
+  top: calc(50% - 14px);
+}
+.to-do1 {
+  width: 100%;
+  left: 0;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.to-do-wrapper {
+  width: 37.12%;
+  right: 57.21%;
+  left: 5.67%;
+  height: 28px;
+}
+.card-child,
+.rectangle-parent2,
+.reserve-head3 {
+  position: absolute;
+  height: 9.41%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.59%;
+  left: 0;
+}
+.card-child,
+.rectangle-parent2 {
+  height: 100%;
+  bottom: 0;
+}
+.rectangle-parent2 {
+  color: var(--color-gray);
+}
+.card-child {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.17);
+}
+.div,
+.rafi {
+  position: absolute;
+  top: 10%;
+  left: 14.37%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.rafi {
+  top: 32.5%;
+  left: 15.8%;
+  font-size: var(--font-size-lg);
+}
+.group-child3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke);
+}
+.div1 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 29.73%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.card,
+.rectangle-parent3 {
+  position: absolute;
+  height: 87.5%;
+  width: 10.63%;
+  top: 6.25%;
+  right: 87.93%;
+  bottom: 6.25%;
+  left: 1.44%;
+  font-size: var(--font-size-xl);
+}
+.card {
+  height: 9.41%;
+  width: 97.21%;
+  top: 10.35%;
+  right: 1.4%;
+  bottom: 80.24%;
+  left: 1.4%;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-karla);
+}
+.group-child4 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-100);
+  border: 1px dashed var(--color-thistle);
+  box-sizing: border-box;
+  width: 348px;
+  height: 284px;
+}
+.form-child1,
+.group-child4,
+.name1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-child1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 328px;
+  height: 42px;
+}
+.enter-name1 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 10px;
+  display: inline-block;
+  width: 80px;
+  height: 15px;
+}
+.form3,
+.price3 {
+  position: absolute;
+  width: 328px;
+}
+.form3 {
+  top: 26px;
+  left: 0;
+  height: 42px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.price3 {
+  top: 10px;
+  left: 10px;
+  height: 68px;
+}
+.enter-number1 {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 16px;
+}
+.ddmmyyyy1,
+.enter-number1,
+.price4 {
+  position: absolute;
+  left: 10px;
+}
+.price4 {
+  top: 84px;
+  width: 328px;
+  height: 68px;
+}
+.ddmmyyyy1 {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 17px;
+}
+.group-child5,
+.price5 {
+  position: absolute;
+  width: 328px;
+}
+.price5 {
+  top: 158px;
+  left: 10px;
+  height: 68px;
+}
+.group-child5 {
+  top: calc(50% - 21px);
+  right: 0;
+  border-radius: 7.46px;
+  background-color: var(--color-darkslateblue);
+  height: 42px;
+}
+.create1 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 25px);
+  display: inline-block;
+  width: 50px;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: calc(50% + 90px);
+  right: 10px;
+  width: 328px;
+  height: 42px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 178px;
+  left: 5px;
+  width: 348px;
+  height: 284px;
+  font-size: var(--font-size-sm);
+}
+.in-progress1,
+.section-31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-31 {
+  height: 100%;
+  width: 32.43%;
+  right: 67.57%;
+  bottom: 0;
+  color: var(--color-black);
+}
+.in-progress1 {
+  width: 100%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.in-progress-wrapper {
+  position: absolute;
+  height: 35%;
+  width: 37.12%;
+  top: 32.5%;
+  right: 57.21%;
+  bottom: 32.5%;
+  left: 5.67%;
+}
+.rectangle-parent6,
+.section-41 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.section-41 {
+  width: 32.43%;
+  right: 33.79%;
+  left: 33.79%;
+}
+.card-item,
+.done-wrapper {
+  position: absolute;
+  height: 35%;
+  width: 37.12%;
+  top: 32.5%;
+  right: 57.29%;
+  bottom: 32.5%;
+  left: 5.59%;
+}
+.card-item {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: #60bc7a;
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.1);
+}
+.div2 {
+  top: 13.75%;
+  left: 15.8%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.ashik,
+.card1,
+.div2 {
+  position: absolute;
+}
+.ashik {
+  top: 35%;
+  left: 15.8%;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+}
+.card1 {
+  height: 9.41%;
+  width: 97.21%;
+  top: 10.35%;
+  right: 1.4%;
+  bottom: 80.24%;
+  left: 1.4%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-karla);
+}
+.section-3-group,
+.section-51 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 67.57%;
+}
+.section-3-group {
+  height: 92.59%;
+  width: 100%;
+  top: 7.41%;
+  left: 0;
+}
+.task-board1 {
+  position: absolute;
+  top: 0;
+  left: 493px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.group-container {
+  position: absolute;
+  height: 89.65%;
+  width: 76.67%;
+  top: 5.18%;
+  right: 11.67%;
+  bottom: 5.18%;
+  left: 11.67%;
+}
+.step-3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+  font-family: var(--font-ubuntu);
+}

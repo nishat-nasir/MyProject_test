@@ -1,0 +1,351 @@
+.group-child9,
+.reserve-head-child4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+}
+.group-child9 {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.1);
+}
+.reserve-head-child4 {
+  background-color: var(--color-lightgray);
+}
+.to-do-container,
+.to-do2 {
+  position: absolute;
+  top: calc(50% - 14px);
+}
+.to-do2 {
+  width: 100%;
+  left: 0;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.to-do-container {
+  width: 37.12%;
+  right: 57.21%;
+  left: 5.67%;
+  height: 28px;
+}
+.card-inner,
+.rectangle-parent9,
+.reserve-head6 {
+  position: absolute;
+  height: 9.41%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.59%;
+  left: 0;
+}
+.card-inner,
+.rectangle-parent9 {
+  height: 100%;
+  bottom: 0;
+}
+.rectangle-parent9 {
+  color: var(--color-gray);
+}
+.card-inner {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.17);
+}
+.div4,
+.rafi1 {
+  position: absolute;
+  top: 10%;
+  left: 14.37%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.rafi1 {
+  top: 32.5%;
+  left: 15.8%;
+  font-size: var(--font-size-lg);
+}
+.group-child10 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke);
+}
+.div5 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 29.73%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.card2,
+.rectangle-parent10 {
+  position: absolute;
+  height: 87.5%;
+  width: 10.63%;
+  top: 6.25%;
+  right: 87.93%;
+  bottom: 6.25%;
+  left: 1.44%;
+  font-size: var(--font-size-xl);
+}
+.card2 {
+  height: 9.41%;
+  width: 97.21%;
+  top: 10.35%;
+  right: 1.4%;
+  bottom: 80.24%;
+  left: 1.4%;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-karla);
+}
+.group-child11 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-100);
+  border: 1px dashed var(--color-thistle);
+  box-sizing: border-box;
+  width: 348px;
+  height: 284px;
+}
+.form-child4,
+.group-child11,
+.name2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-child4 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 328px;
+  height: 42px;
+}
+.enter-name2 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 10px;
+  display: inline-block;
+  width: 80px;
+  height: 15px;
+}
+.form6,
+.price6 {
+  position: absolute;
+  width: 328px;
+}
+.form6 {
+  top: 26px;
+  left: 0;
+  height: 42px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.price6 {
+  top: 10px;
+  left: 10px;
+  height: 68px;
+}
+.enter-number2 {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 16px;
+}
+.ddmmyyyy2,
+.enter-number2,
+.price7 {
+  position: absolute;
+  left: 10px;
+}
+.price7 {
+  top: 84px;
+  width: 328px;
+  height: 68px;
+}
+.ddmmyyyy2 {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 17px;
+}
+.group-child12,
+.price8 {
+  position: absolute;
+  width: 328px;
+}
+.price8 {
+  top: 158px;
+  left: 10px;
+  height: 68px;
+}
+.group-child12 {
+  top: calc(50% - 21px);
+  right: 0;
+  border-radius: 7.46px;
+  background-color: var(--color-darkslateblue);
+  height: 42px;
+}
+.create2 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 25px);
+  display: inline-block;
+  width: 50px;
+}
+.rectangle-parent12 {
+  position: absolute;
+  top: calc(50% + 90px);
+  right: 10px;
+  width: 328px;
+  height: 42px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.rectangle-parent11 {
+  position: absolute;
+  top: 178px;
+  left: 5px;
+  width: 348px;
+  height: 284px;
+  font-size: var(--font-size-sm);
+}
+.in-progress2,
+.section-32 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-32 {
+  height: 100%;
+  width: 32.43%;
+  right: 67.57%;
+  bottom: 0;
+  color: var(--color-black);
+}
+.in-progress2 {
+  width: 100%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.in-progress-container {
+  position: absolute;
+  height: 35%;
+  width: 37.12%;
+  top: 32.5%;
+  right: 57.21%;
+  bottom: 32.5%;
+  left: 5.67%;
+}
+.rectangle-parent13 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.div6 {
+  top: 13.75%;
+  left: 15.8%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.ashik1,
+.card3,
+.div6 {
+  position: absolute;
+}
+.ashik1 {
+  top: 35%;
+  left: 15.8%;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+}
+.card3 {
+  height: 9.41%;
+  width: 97.21%;
+  top: 10.35%;
+  right: 1.4%;
+  bottom: 80.24%;
+  left: 1.4%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-karla);
+}
+.done-container,
+.section-42 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 33.79%;
+  bottom: 0;
+  left: 33.79%;
+}
+.done-container {
+  height: 35%;
+  width: 37.12%;
+  top: 32.5%;
+  right: 57.29%;
+  bottom: 32.5%;
+  left: 5.59%;
+}
+.section-3-container,
+.section-52 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 67.57%;
+}
+.section-3-container {
+  height: 92.59%;
+  width: 100%;
+  top: 7.41%;
+  left: 0;
+}
+.task-board2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 59px);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.group-parent1 {
+  position: absolute;
+  height: 89.65%;
+  width: 76.67%;
+  top: 5.18%;
+  right: 11.67%;
+  bottom: 5.18%;
+  left: 11.67%;
+}
+.step-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+  font-family: var(--font-ubuntu);
+}

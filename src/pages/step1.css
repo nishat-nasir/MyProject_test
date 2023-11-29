@@ -1,0 +1,234 @@
+.group-child,
+.reserve-head-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+}
+.group-child {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.1);
+}
+.reserve-head-child {
+  background-color: var(--color-lightgray);
+}
+.to-do {
+  position: absolute;
+  width: 37.12%;
+  top: calc(50% - 14px);
+  left: 5.67%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangle-parent,
+.reserve-head {
+  position: absolute;
+  height: 9.41%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.59%;
+  left: 0;
+}
+.rectangle-parent {
+  height: 100%;
+  bottom: 0;
+}
+.group-item {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-100);
+  border: 1px dashed var(--color-thistle);
+  box-sizing: border-box;
+  width: 348px;
+  height: 284px;
+}
+.form-child,
+.group-item,
+.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-child {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 328px;
+  height: 42px;
+}
+.enter-name {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 10px;
+  display: inline-block;
+  width: 80px;
+  height: 15px;
+}
+.form,
+.price {
+  position: absolute;
+  width: 328px;
+}
+.form {
+  top: 26px;
+  left: 0;
+  height: 42px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.price {
+  top: 10px;
+  left: 10px;
+  height: 68px;
+}
+.enter-number {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 16px;
+}
+.ddmmyyyy,
+.enter-number,
+.price1 {
+  position: absolute;
+  left: 10px;
+}
+.price1 {
+  top: 84px;
+  width: 328px;
+  height: 68px;
+}
+.ddmmyyyy {
+  top: calc(50% - 8px);
+  display: inline-block;
+  width: 83px;
+  height: 17px;
+}
+.group-inner,
+.price2 {
+  position: absolute;
+  width: 328px;
+}
+.price2 {
+  top: 158px;
+  left: 10px;
+  height: 68px;
+}
+.group-inner {
+  top: calc(50% - 21px);
+  right: 0;
+  border-radius: 7.46px;
+  background-color: var(--color-darkslateblue);
+  height: 42px;
+}
+.create {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 25px);
+  display: inline-block;
+  width: 50px;
+}
+.rectangle-container {
+  position: absolute;
+  top: calc(50% + 90px);
+  right: 10px;
+  width: 328px;
+  height: 42px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.rectangle-group {
+  position: absolute;
+  top: 90px;
+  left: 5px;
+  width: 348px;
+  height: 284px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.section-3 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 67.57%;
+  bottom: 0;
+  left: 0;
+}
+.in-progress {
+  position: absolute;
+  width: 37.12%;
+  top: 32.5%;
+  left: 5.67%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.section-4 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 33.79%;
+  bottom: 0;
+  left: 33.79%;
+}
+.done {
+  position: absolute;
+  width: 37.12%;
+  top: 32.5%;
+  left: 5.59%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.section-3-parent,
+.section-5 {
+  position: absolute;
+  height: 100%;
+  width: 32.43%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 67.57%;
+}
+.section-3-parent {
+  height: 92.59%;
+  width: 100%;
+  top: 7.41%;
+  left: 0;
+}
+.task-board {
+  position: absolute;
+  top: 0;
+  left: 492px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.group-parent {
+  position: absolute;
+  height: 89.65%;
+  width: 76.67%;
+  top: 5.18%;
+  right: 11.67%;
+  bottom: 5.18%;
+  left: 11.67%;
+}
+.step1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+  font-family: var(--font-ubuntu);
+}

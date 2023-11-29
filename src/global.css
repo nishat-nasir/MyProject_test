@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-ubuntu: Ubuntu;
+  --font-karla: Karla;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-3xs: 10px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #fefefe;
+  --color-gray: #202020;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-lightgray: #d5d1d8;
+  --color-darkslateblue: #401b60;
+  --color-gainsboro-100: #e9e6eb;
+  --color-gainsboro-200: #e4e4e4;
+  --color-thistle: #c6bbcf;
+  --color-whitesmoke: #eeeff0;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-5xs-5: 7.5px;
+  --br-11xs: 2px;
+}
